@@ -16,12 +16,12 @@ mod tests {
     #[test]
     fn example_1() {
         let result = is_anagram("anagram".to_string(), "nagaram".to_string());
-        assert_eq!(result, true);
+        assert!(result);
     }
 
     #[test]
     fn example_2() {
         let result = is_anagram("rat".to_string(), "car".to_string());
-        assert_eq!(result, false);
+        assert!(!result);
     }
 }

@@ -20,18 +20,18 @@ mod tests {
     #[test]
     fn example_1() {
         let result = contains_duplicate(vec![1, 2, 3, 1]);
-        assert_eq!(result, true);
+        assert!(result);
     }
 
     #[test]
     fn example_2() {
         let result = contains_duplicate(vec![1, 2, 3, 4]);
-        assert_eq!(result, false);
+        assert!(!result);
     }
 
     #[test]
     fn example_3() {
         let result = contains_duplicate(vec![1, 1, 1, 3, 3, 4, 3, 2, 4, 2]);
-        assert_eq!(result, true);
+        assert!(result);
     }
 }
