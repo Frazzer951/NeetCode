@@ -7,7 +7,11 @@ pub fn top_k_frequent(nums: Vec<i32>, k: i32) -> Vec<i32> {
     }
     let mut freq_vec: Vec<_> = frequencies.iter().collect();
     freq_vec.sort_by(|a, b| b.1.cmp(a.1));
-    freq_vec[0..k as usize].to_vec().iter().map(|e| *e.0).collect()
+    freq_vec[0..k as usize]
+        .to_vec()
+        .iter()
+        .map(|e| *e.0)
+        .collect()
 }
 
 #[cfg(test)]
