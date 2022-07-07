@@ -1,13 +1,6 @@
-use neet_code::nc_150::array_and_hashing::group_anagrams::group_anagrams;
+use neet_code::nc_150::array_and_hashing::top_k_frequent_elements::top_k_frequent;
 
 fn main() {
-    let result = group_anagrams(vec![
-        "eat".to_string(),
-        "tea".to_string(),
-        "tan".to_string(),
-        "ate".to_string(),
-        "nat".to_string(),
-        "bat".to_string(),
-    ]);
+    let result = top_k_frequent(vec![1, 1, 1, 2, 2, 3], 2);
     println!("{:#?}", result);
 }
