@@ -9,3 +9,5 @@ My Solution to the NeetCode Problems in rust
 5. [Top K Frequent Elements](src/nc_150/array_and_hashing/top_k_frequent_elements.rs)
 6. [Product of Array Except Self](src/nc_150/array_and_hashing/product_of_array.rs)
 7. [Valid Sudoku](src/nc_150/array_and_hashing/valid_sudoku.rs)
+8. Encode and Decode Strings
+9. [Longest Consecutive Sequence](src/nc_150/array_and_hashing/longest_consecutive_sequence.rs)
