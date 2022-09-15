@@ -18,3 +18,4 @@ My Solution to the NeetCode Problems in rust
 
 1. [Valid Palindrome](src/nc_150/two_pointer/valid_palindrome.rs)
 2. [Two Sum II](src/nc_150/two_pointer/two_sum_2.rs)
+3. [3Sum](src/nc_150/two_pointer/three_sum.rs)
