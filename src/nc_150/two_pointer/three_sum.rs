@@ -1,5 +1,6 @@
-pub fn three_sum(mut nums: Vec<i32>) -> Vec<Vec<i32>> {
+pub fn three_sum(nums: Vec<i32>) -> Vec<Vec<i32>> {
     let mut res = vec![];
+    let mut nums = nums;
     nums.sort();
 
     for (i, a) in nums.iter().enumerate() {
