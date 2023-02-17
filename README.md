@@ -20,4 +20,4 @@ My Solution to the NeetCode Problems in rust
 2. [Two Sum II](src/nc_150/two_pointer/two_sum_2.rs)
 3. [3Sum](src/nc_150/two_pointer/three_sum.rs)
 4. [Container With Most Water ](src/nc_150/two_pointer/container_with_most_water.rs)
-5. [Trapping Rain Water ]()
+5. [Trapping Rain Water ](src/nc_150/two_pointer/trapping_rain_water.rs)
